@@ -13,7 +13,7 @@ public class Main {
          System.out.println(a-b);
         }
         if(a<b){
-            System.out.println(b-a); 
+         System.out.println(b-a); 
         }
     }
 }
