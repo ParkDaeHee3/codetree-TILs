@@ -7,7 +7,7 @@ public class Main {
 
         int a,score; 
         a = sc.nextInt(); 
-        score = 80 - a; 
+        score = (80 - a); 
         if(a>=80){
         System.out.println("pass"); 
         }
