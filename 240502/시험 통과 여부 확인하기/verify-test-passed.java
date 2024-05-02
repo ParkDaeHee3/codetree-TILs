@@ -13,7 +13,7 @@ public class Main {
         }
         else
         {
-            System.out.println(a+score+" "+"more score");
+            System.out.println(score+" "+"more score");
         }
     }
 }
