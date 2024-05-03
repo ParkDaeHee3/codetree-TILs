@@ -7,7 +7,7 @@ public class Main {
          double a; 
         a =sc.nextDouble(); 
 
-        if(a>1.0){
+        if(a>=1.0){
             System.out.println("High");
         }
         else if(a>0.5){
