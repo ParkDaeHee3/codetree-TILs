@@ -8,10 +8,13 @@ public class Main {
         a = sc.nextInt(); 
         
         even = a%2;
-        b = a/2;
         
-        if(b!=0){
-            System.out.println((b+1)/2);
+        if(even==0){
+            a = a/2; 
+        }
+
+        if(a>1){
+            System.out.println((a+1)/2);
         }
      
 
