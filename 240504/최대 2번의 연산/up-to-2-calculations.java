@@ -9,6 +9,7 @@ public class Main {
         
         even = a%2;
         odd = a%2;
+        a = a/2;
         b=a;
 
         if(even==0) {
@@ -16,7 +17,7 @@ public class Main {
             System.out.println(a); 
         }
         
-        if( odd!=0 ) {
+        if( odd!=0 && b<=1 ) {
             System.out.println((b+1)/2);
         }
      
