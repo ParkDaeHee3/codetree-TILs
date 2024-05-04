@@ -4,18 +4,20 @@ public class Main {
         // 여기에 코드를 작성해주세요.
         Scanner sc = new Scanner(System.in);
 
-        int a,even,b;
+        int a,even,b,odd;
         a = sc.nextInt(); 
         
         even = a%2;
-        
-        if(even==0){
+        odd = a%2;
+        b=a;
+
+        if(even==0) {
             a = a/2; 
             System.out.println(a); 
         }
         
-        if(a>=1 && even!=0  ){
-            System.out.println((a+1)/2);
+        if( odd!=0 ) {
+            System.out.println((b+1)/2);
         }
      
 
