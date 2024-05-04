@@ -14,7 +14,7 @@ public class Main {
             System.out.println(a); 
         }
         
-        if(a>1 && even!=0  ){
+        if(a>=1 && even!=0  ){
             System.out.println((a+1)/2);
         }
      
