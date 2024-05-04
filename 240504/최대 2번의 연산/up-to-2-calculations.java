@@ -11,9 +11,10 @@ public class Main {
         
         if(even==0){
             a = a/2; 
+            System.out.println(a); 
         }
-
-        if(a>=1){
+        
+        if(a>1 && even!=0  ){
             System.out.println((a+1)/2);
         }
      
