@@ -11,6 +11,9 @@ public class Main {
         if(a<b){
             System.out.println("1"+" "+"0");
         }
+        else{
+            System.out.println("0"+" "+"0");
+        }
         
 
     
