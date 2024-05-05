@@ -14,11 +14,7 @@ public class Main {
         else{
             System.out.println("0"+" "+"0");
         }
-        
-
-    
-        
-        if(a==b){
+        if(a>b){
             System.out.println("0"+" "+"1");
         }
         
