@@ -5,12 +5,12 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         int a,b,c,d;
-        a =sc.nextInt();
+        a = sc.nextInt();
         b = sc.nextInt();
         c  = sc.nextInt();
         d  = sc.nextInt(); 
         
-        if(a>=b && c>=d && a!=c){
+        if(a>=c && b>=d){
             System.out.println(1);
         }
         else{
