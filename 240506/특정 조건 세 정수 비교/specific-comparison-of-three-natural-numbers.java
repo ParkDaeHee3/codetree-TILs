@@ -19,6 +19,9 @@ public class Main {
         else if(a==b){
         System.out.printf("1 "); 
         }
+         else if(a==c){
+        System.out.printf("1 "); 
+        }
         else{
             System.out.printf("0 ");
         }
