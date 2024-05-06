@@ -10,13 +10,13 @@ public class Main {
         b=sc.nextInt();
         c=sc.nextInt();
 
-        if(a<b && a<c){
-            System.out.printf("1 "); 
+        if(a<=b && a<=c ){
+            System.out.printf("1 "+"0" ); 
         }
-        if(a==b && a==c ){
+        else if(a==b && a==c ){
         System.out.printf("1 "); 
         }
-        if(a==b){
+        else if(a==b){
         System.out.println("1 "+"0"); 
         }
         else{
