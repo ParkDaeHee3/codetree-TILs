@@ -13,9 +13,7 @@ public class Main {
         if(a<b && a<c ){
          System.out.printf("1 "); 
         }
-        else if(a==b && a==c ){
-        System.out.printf("1 "); 
-        }
+       
         else if(a==b){
         System.out.printf("1 "); 
         }
@@ -25,6 +23,10 @@ public class Main {
         else{
             System.out.printf("0 ");
         }
+         if(a==b && a==c ){
+        System.out.printf("1 "); 
+        }
+        else
         System.out.println(0);
     }
 }
