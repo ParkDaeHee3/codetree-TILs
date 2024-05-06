@@ -11,7 +11,7 @@ public class Main {
         c=sc.nextInt();
 
         if(a<b && a<c){
-            System.out.print(1); 
+            System.out.printf("1 "); 
         }
         else{
             System.out.printf("0 ");
