@@ -11,15 +11,13 @@ public class Main {
         if(a>=1.0 && b>=1.0){
             System.out.println("High");
         }
-         if(b<=0.5 && a<=0.5){
+         if(a<1.0 && a>=0.5 && b<1.0 && b>=0.5){
             System.out.println("middle");
         }
-         if(0.4>=a && 0.4>=b){
+         if(a<0.5&& b<0.5) {
             System.out.println("Low");
         }
-        else{
-            System.out.println("Low");
-        }
+        
 
 
     }
