@@ -9,8 +9,8 @@ public class Main {
         b = sc.nextInt();
         c  = sc.nextInt();
         d  = sc.nextInt(); 
-
-        if(a>b && c>d && a==c){
+        
+        if(a>=b && c>=d){
             System.out.println(1);
         }
         else{
