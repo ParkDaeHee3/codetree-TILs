@@ -9,14 +9,14 @@ public class Main {
         m =sc.nextInt();
         f =sc.nextInt();
 
-        if(f>=95&&f>m || m>=95&&m>f){
+        if((f>=95&&f>m) && (m>=95&&m>f)){
             System.out.println("100000");
         }
-        else if(f>=90&&m>=90){
-            System.out.println("50000");
+        else if(f<90 || m<90   ) {
+            System.out.println(0);
         }
         else{
-            System.out.println(0);
+            System.out.println("50000");
         }
 
     }
