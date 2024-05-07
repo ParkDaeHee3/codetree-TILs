@@ -12,7 +12,7 @@ public class Main {
         if((f>=95 || m>=95) && (f<=100&&m<=100)){
             System.out.println("100000");
         }
-        else if((f==94||m==94)&&(f<=90||m<=90)) {
+        else if((f>=90 || m>=90) && (f<=94&&m<=94)) {
             System.out.println("50000");
         }
         else{
