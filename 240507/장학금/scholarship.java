@@ -9,7 +9,7 @@ public class Main {
         m =sc.nextInt();
         f =sc.nextInt();
 
-        if(f>=95&&m>=95){
+        if(f>=95&&f>m || m>=95&&m>f){
             System.out.println("100000");
         }
         else if(f>=90&&m>=90){
