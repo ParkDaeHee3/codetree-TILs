@@ -8,16 +8,11 @@ public class Main {
         int y; 
         y = sc.nextInt();
 
-            if(y%4==0)
+            if(y%100==0 && y%4==0 && y%400==0 )
             {
-                if(y%100==0 && y%400==0){
-                 System.out.println("true");
-                }
-                else if( y%400!=0 || y%4!=0 || y%100!=0){
-               System.out.println("false");
+             System.out.println("true");   
             }
-            }
-            else if(y%100==0 && y%400==1){
+            else if( y%400!=0 && y%100==0){
               System.out.println("false");
             }
         }
