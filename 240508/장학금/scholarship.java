@@ -12,11 +12,11 @@ public class Main {
         if((m>=90 && m<95) && (f>=90 && f<95 )){
             System.out.println("50000");
         }
-        else if(m>=95 || f>=95){
-            System.out.println("100000");
+        else if(m==89){
+            System.out.println(0);
         }
         else{
-            System.out.println(0);
+            System.out.println("100000");
         }
 
     }
