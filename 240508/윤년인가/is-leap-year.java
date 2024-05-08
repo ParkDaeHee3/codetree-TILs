@@ -8,13 +8,10 @@ public class Main {
         int y; 
         y = sc.nextInt();
 
-        if(4%y==0){
+        if(y%4==0){
             System.out.println("true");
         }
-        else{
-            System.out.println("false");
-        }
-        if(100%y==0&&400%y==1){
+        else if((y%100==0&&y%400!=0)&&y%4!=0){
             System.out.println("false");
         }
       
