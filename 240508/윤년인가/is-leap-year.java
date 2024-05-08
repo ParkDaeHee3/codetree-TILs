@@ -9,7 +9,7 @@ public class Main {
         y = sc.nextInt();
 
         if(y%400==0 ||(y%400!=0 && y%100!=0 && y%4==0)){
-            System.out.println("ture");
+            System.out.println("true");
         }
         else{
             System.out.println("false");
