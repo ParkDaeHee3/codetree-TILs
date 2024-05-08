@@ -8,14 +8,11 @@ public class Main {
         int y; 
         y = sc.nextInt();
 
-        if(y%4==0&&(y%100!=0&&y%400==0)){
-            System.out.println("true");
+        if(y%400==0 ||(y%400!=0 && y%100!=0 && y%4==0)){
+            System.out.println("ture");
         }
-        else if((y%100==0&&y%400!=0)){
+        else{
             System.out.println("false");
-        }
-        else if(y%4==0||(y%100!=0&&y%400==0)){
-            System.out.println("true");
         }
     }
 }
