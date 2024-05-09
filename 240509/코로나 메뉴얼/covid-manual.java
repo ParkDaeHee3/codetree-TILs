@@ -16,14 +16,13 @@ public class Main {
         String c =sc.next(); 
         temp3 = sc.nextInt(); 
 
-        if( a.equals(input1) && temp1>=37){
+        if( a.equals(input1) && temp1>37){
             System.out.println("E"); 
         }
-
-        else if(b.equals(input1) && temp2>=37){
+        else if(b.equals(input1) && temp2>37){
                  System.out.println("E"); 
                  }
-        else if (c.equals(input1) && temp3>=37){
+        else if (c.equals(input1) && temp3>37){
                   System.out.println("E"); 
                 }
         else{
