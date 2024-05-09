@@ -16,18 +16,17 @@ public class Main {
         String c =sc.next(); 
         temp3 = sc.nextInt(); 
 
-        if( a.equals(input1) && temp1<37 ){
-            System.out.println("N"); 
+        if( (a.equals(input1) && temp1>=37) && (b.equals(input1) && temp2>=37) ){
+            System.out.println("E"); 
         }
-        else if(b.equals(input1) &&temp2<37){
-                 System.out.println("N"); 
-                 }
-        else if (c.equals(input1) && temp3<37){
-                  System.out.println("N"); 
-                }
-    
+        else if((b.equals(input1) && temp2>=37) && (c.equals(input1) && temp3>=37))  {
+                 System.out.println("E"); 
+                 } 
+        else if ((c.equals(input1) && temp3>=37) && (a.equals(input1) && temp1>=37)){
+                  System.out.println("E"); 
+                } 
         else{
-            System.out.println("E");
+            System.out.println("N"); 
         }
     }
     
