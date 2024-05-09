@@ -10,12 +10,14 @@ public class Main {
         a = sc.nextInt();
 
         if(a==2)
-        
            {
             System.out.println("28");
         }
+        else if(a==4||a==6||a==9||a==11){
+            System.out.println("30");
+        } 
         else{
             System.out.println("31");
-        }        
+        }
 }
 }
