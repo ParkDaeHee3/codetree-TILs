@@ -25,9 +25,7 @@ public class Main {
         else if (c.equals(input1) && (temp1>=37&&temp3>=37)){
                   System.out.println("E"); 
                 }
-        else if ((temp1>=37&&temp2>=37)||(temp2>=37&&temp3>=37)||(temp1>=37&&temp3>=37)){
-            System.out.println("E"); 
-        }
+    
         else{
             System.out.println("N");
         }
