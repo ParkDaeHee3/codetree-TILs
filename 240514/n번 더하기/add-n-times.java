@@ -13,9 +13,9 @@ public class Main {
         
 
         for(int i=1; i<=n; i++){
-            result+=n;
-            System.out.println(result);
             
+            System.out.println(result);
+            result+=n;
 
         }
     }
