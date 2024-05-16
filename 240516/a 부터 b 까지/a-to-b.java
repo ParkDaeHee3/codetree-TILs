@@ -13,18 +13,20 @@ public class Main {
         even = a+3;
         
         
-        for( int i = 1; i<=b; i++){
-            if(i%2==0 && a<=b){
-                System.out.print(a+" ");
-                a*=2;
+        for( int i = a; i<=b;){
+            if(i%2==1 ){
+                
+                System.out.print(i+" ");
+                i*=2;
+                
             }
-            else if(i%2==1 && a<=b){
-                System.out.print(a+" ");
-                a+=3;
+            else {
+               
+                System.out.print(i+" ");
+                 i+=3;
+                
             }
-            else{
-                System.out.print(b);
-            }
+           
         
         }
         
