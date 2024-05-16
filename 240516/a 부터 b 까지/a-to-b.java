@@ -5,13 +5,12 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
-        int a,b,odd,even; 
+        int a,b; 
 
         a = sc.nextInt();
         b = sc.nextInt();
-        odd = a*2;
-        even = a+3;
-        
+    
+
         
         for( int i = a; i<=b;){
             if(i%2==1 ){
