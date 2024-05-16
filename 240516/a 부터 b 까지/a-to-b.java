@@ -22,6 +22,9 @@ public class Main {
                 System.out.print(a+" ");
                 a+=3;
             }
+            else{
+                System.out.print(b);
+            }
         
         }
         
