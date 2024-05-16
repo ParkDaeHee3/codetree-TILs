@@ -14,7 +14,7 @@ public class Main {
         
         
         for( int i = 1; i<=b; i++){
-            if(i%2==0 && a<=b){
+            if(i%3==1 && a<=b){
                 System.out.print(a+" ");
                 a+=3;
             }
