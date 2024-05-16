@@ -16,11 +16,11 @@ public class Main {
         for( int i = 1; i<=b; i++){
             if(i%2==0 && a<=b){
                 System.out.print(a+" ");
-                a+=3;
+                a*=2;
             }
             else if(i%2==1 && a<=b){
                 System.out.print(a+" ");
-                a*=2;
+                a+=3;
             }
         
         }
