@@ -14,11 +14,11 @@ public class Main {
         
         
         for( int i = 1; i<=b; i++){
-            if(i%3==1 && a<=b){
+            if((i%2==0 && a<=b) || (i%3==1 && a>=b)){
                 System.out.print(a+" ");
                 a+=3;
             }
-            else if(i%3==0 && a<=b){
+            else if((i%3==0 && a<=b)||(i%2==1 && a<=b) ){
                 System.out.print(a+" ");
                 a*=2;
             }
