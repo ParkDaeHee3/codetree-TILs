@@ -5,7 +5,7 @@ public class Main {
        Scanner sc = new Scanner(System.in); 
 
        int a = sc.nextInt(); 
-       int b = 100 - a; 
+       int b = 80 - a; 
 
        if(a<80){
         System.out.println(b+" more score"); 
