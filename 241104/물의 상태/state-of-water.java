@@ -8,7 +8,7 @@ public class Main {
 
         int temp = sc.nextInt();
          
-         if(temp <= 0) {
+         if(temp < 0) {
             System.out.println("ice"); 
     
          } else if (temp >= 100) {
