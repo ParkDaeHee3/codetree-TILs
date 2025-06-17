@@ -3,7 +3,7 @@ a,b = input().split()
 if a >= b: 
     print(1)
 if a <= b: 
-    print(0)
+     print(0)
   
 if a > b: 
     print(1)
@@ -21,7 +21,6 @@ if b < a:
    print(0) 
 
 
-
 if a == b: 
     print(1)
 
@@ -30,5 +29,6 @@ if a != b:
 
 if a != b: 
     print(1)
+
 if a == b: 
    print(0)
