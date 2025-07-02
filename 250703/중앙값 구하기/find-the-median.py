@@ -10,9 +10,9 @@ if (b>a) and ( b < c) :
     if (b<a) and (b<c): 
      print(b)
 
-if (c > a) and ( c < b) :
+if (c < a) and ( c > b) :
     print(c)
-    if (c<a) and (c<b): 
+    if (c>a) and (c<b): 
      print(c)
      
  
